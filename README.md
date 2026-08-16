@@ -111,7 +111,7 @@ You can choose any model available on OpenRouter by changing the `MODEL` setting
 | :--- | :--- | :--- | :--- |
 | **`google/gemini-3.7-flash`** | ⚡ Ultra-fast (~200 tps) | **~$0.15 – $0.35** | **Production & high-fluency reading** |
 | **`deepseek/deepseek-v4-flash`** | 🚀 Fast | **~$0.04 – $0.08** | **Ultra-budget batch processing** |
-| **`google/gemini-2.0-flash`** | ⚡ Ultra-fast | **~$0.08 – $0.12** | **Great balance of speed and cost** |
+
 
 ---
 
