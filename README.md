@@ -97,7 +97,7 @@ uv run translate_epub.py
 
 3. Packaging into 'your favourite book.epub'...
 
-🎉 DONE! All 25 files translated successfully in 41.2s.
+🎉 DONE! All 25 files translated successfully in 151.2s.
 📁 Output File: your favourite book.epub
 ```
 
