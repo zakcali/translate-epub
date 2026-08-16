@@ -109,7 +109,7 @@ You can choose any model available on OpenRouter by changing the `MODEL` setting
 
 | Model | Speed | Cost Per Book (~100k words) | Recommended For |
 | :--- | :--- | :--- | :--- |
-| **`google/gemini-3.7-flash`** | ⚡ Ultra-fast (~200 tps) | **~$0.15 – $0.35** | **Production & high-fluency reading** |
+| **`google/gemini-3.7-flash`** | ⚡ Ultra-fast (~200 tps) | **~$0.35 – $1.00** | **Production & high-fluency reading** |
 | **`deepseek/deepseek-v4-flash`** | 🚀 Fast | **~$0.04 – $0.08** | **Ultra-budget batch processing** |
 
 
