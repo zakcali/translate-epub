@@ -195,7 +195,7 @@ def main():
 
     if failed_files:
         print(f"\n⚠️ Finished with {len(failed_files)} failed file(s): {', '.join(failed_files)}")
-        print("💡 Re-run 'uv run zafer.py' to finish the remaining files.")
+        print("💡 Re-run 'uv translate-epub.py' to finish the remaining files.")
     else:
         print(f"\n3. Packaging into '{output_epub}'...")
         create_epub(work_dir, output_epub)
