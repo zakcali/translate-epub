@@ -95,10 +95,10 @@ uv run translate_epub.py
 ...
 [25/25] (100.0%) [✓] Finished: chapter-7.xhtml                     (136.6s)
 
-3. Packaging into 'Sutskevers List-Foundational ideas of modern AI-translated.epub'...
+3. Packaging into 'your favourite book.epub'...
 
 🎉 DONE! All 25 files translated successfully in 41.2s.
-📁 Output File: Sutskevers List-Foundational ideas of modern AI-translated.epub
+📁 Output File: your favourite book.epub
 ```
 
 ---
