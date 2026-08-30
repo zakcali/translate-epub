@@ -13,7 +13,7 @@ from openai import OpenAI
 PRIMARY_MODEL = "google/gemini-3.7-flash"
 FALLBACK_MODEL = "deepseek/deepseek-v4-flash"  # used automatically if PRIMARY_MODEL refuses/censors
 TARGET_LANG = "Turkish"
-INPUT_EPUB = "Crazy A Fathers Search Through Americas Mental Health Madness (Pete Earley, 2006).epub"
+INPUT_EPUB = "Your-Book-Title.epub"
 MAX_WORKERS = 8       # Parallel threads
 MAX_RETRIES = 3        # Retries per model on transient errors (timeouts, rate limits, etc.)
 TEMP_FILE = "translation_progress.json"
