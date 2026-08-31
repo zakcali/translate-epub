@@ -241,7 +241,7 @@ def main():
     target_files = []
     for root, dirs, files in os.walk(work_dir):
         for file in files:
-            if file.lower().endswith(('.xhtml', '.html', '.ncx')):
+            if file.lower().endswith(('.xhtml', '.html', '.ncx', '.htm')):
                 target_files.append(os.path.join(root, file))
 
     total_count = len(target_files)
