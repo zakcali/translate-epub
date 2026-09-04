@@ -1,6 +1,6 @@
 # 📚 translate-epub
 
-A fast, multithreaded CLI tool to translate English EPUB books to Turkish (or any language) using modern LLMs via OpenRouter (e.g., **Google Gemini 3.7 Flash**, **DeepSeek-V4 Flash**).
+A fast, multithreaded CLI tool to translate English EPUB books to Turkish (or any language) using modern LLMs via OpenRouter (e.g., **Google Gemini 3.8 Flash**, **DeepSeek-V4 Flash**).
 
 Unlike complex, brittle DOM scrapers or slow autonomous agents, `translate-epub` uses a streamlined, concurrent pipeline that translates full book chapters in parallel while strictly preserving XHTML/XML tags, CSS classes, inline styling, and metadata.
 
@@ -70,7 +70,7 @@ export OPENROUTER_API_KEY="sk-or-v1-your-key-here"
 
 ```python
 # ------------ CONFIGURATION ------------
-MODEL = "google/gemini-3.7-flash"  # or "deepseek/deepseek-v4-flash"
+MODEL = "google/gemini-3.8-flash"  # or "deepseek/deepseek-v4-flash"
 TARGET_LANG = "Turkish"
 INPUT_EPUB = "Your-Book-Title.epub"
 MAX_WORKERS = 8  # Parallel translation threads
@@ -93,7 +93,7 @@ Same setup, but with two models configured instead of one:
 
 ```python
 # ------------ CONFIGURATION ------------
-PRIMARY_MODEL = "google/gemini-3.7-flash"
+PRIMARY_MODEL = "google/gemini-3.8-flash"
 FALLBACK_MODEL = "deepseek/deepseek-v4-flash"  # used automatically if PRIMARY_MODEL refuses/censors
 TARGET_LANG = "Turkish"
 INPUT_EPUB = "Your-Book-Title.epub"
@@ -120,7 +120,7 @@ uv run translate-epub-fallback-model.py
 
 ```text
 📦 Extracting 'your favourite book.epub'...
-🤖 Primary model:  google/gemini-3.7-flash
+🤖 Primary model:  google/gemini-3.8-flash
 🛟 Fallback model: deepseek/deepseek-v4-flash (used automatically on refusal/censorship)
 🚀 Processing 25 files in parallel (8 threads)...
 
@@ -148,7 +148,7 @@ You can choose any model available on OpenRouter by changing the `MODEL` (or `PR
 
 | Model | Speed | Cost Per Book (~100k words) | Recommended For |
 | :--- | :--- | :--- | :--- |
-| **`google/gemini-3.7-flash`** | ⚡ Ultra-fast (~200 tps) | **~$0.35 – $1.00** | **Production & high-fluency reading** |
+| **`google/gemini-3.8-flash`** | ⚡ Ultra-fast (~200 tps) | **~$0.35 – $1.00** | **Production & high-fluency reading** |
 | **`deepseek/deepseek-v4-flash`** | 🚀 Fast | **~$0.04 – $0.08** | **Ultra-budget batch processing, and as a fallback for content Gemini declines to translate** |
 
 ---
