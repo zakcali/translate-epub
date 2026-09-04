@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 from openai import OpenAI
 
 # ------------ CONFIGURATION ------------
-PRIMARY_MODEL = "google/gemini-3.7-flash"
+PRIMARY_MODEL = "google/gemini-3.8-flash"
 FALLBACK_MODEL = "deepseek/deepseek-v4-flash"  # used automatically if PRIMARY_MODEL refuses/censors
 TARGET_LANG = "Turkish"
 INPUT_EPUB = "Your-Book-Title.epub"
