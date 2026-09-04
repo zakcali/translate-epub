@@ -10,8 +10,8 @@ from concurrent.futures import ThreadPoolExecutor
 from openai import OpenAI
 
 # ------------ CONFIGURATION ------------
-# MODEL = "google/gemini-3.7-flash"  # or "deepseek/deepseek-v4-flash"
-MODEL = "deepseek/deepseek-v4-flash"  # or "google/gemini-3.7-flash"
+# MODEL = "google/gemini-3.8-flash"  # or "deepseek/deepseek-v4-flash"
+MODEL = "deepseek/deepseek-v4-flash"  # or "google/gemini-3.8-flash"
 TARGET_LANG = "Turkish"
 INPUT_EPUB = "Your-Book-Title.epub"
 MAX_WORKERS = 8  # Parallel threads
